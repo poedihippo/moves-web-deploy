@@ -1,0 +1,16 @@
+{
+  "name": "moves-deploy",
+  "version": "1.0.0",
+  "description": "this is file for moves web",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "path": "^0.12.7"
+  }
+}
