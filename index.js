@@ -12,6 +12,7 @@ app.get("/*", function (req, res) {
   res.sendFile(path.join(__dirname, "build", "index.html"));
 });
 
-app.listen(8099, () => {
+const PORT = 8099;
+app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
